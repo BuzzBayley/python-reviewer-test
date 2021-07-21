@@ -1,4 +1,5 @@
 
+#hi
 operations_count = 0
 
 def main():
