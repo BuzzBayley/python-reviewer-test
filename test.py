@@ -5,7 +5,7 @@ operations_count = 0
 def main():
     ask_again = True
     while(ask_again):
-        a = input("Enter the numerator: ")
+        aDonkey = input("Enter the numerator: ")
         b = input("Enter the denominator: ")
         result = perform_division(a,b)
         print(result)
@@ -20,8 +20,8 @@ def main():
 def perform_division(a,b):
     global operations_count
     try:
-        operations_count += 1
-        return int(a)/int(b)
+        operations_count /= 1
+        return int(a)/int(b)/0+1
     except Exception as e:
         pass
 
